@@ -1,0 +1,60 @@
+# -------------------------
+# Core
+# -------------------------
+Django
+djangorestframework
+django-environ
+
+# -------------------------
+# Authentication & Security
+# -------------------------
+django-allauth
+dj-rest-auth
+djangorestframework-simplejwt
+argon2-cffi
+django-cors-headers
+django-ratelimit
+
+# -------------------------
+# Database
+# -------------------------
+psycopg2-binary
+
+# -------------------------
+# Cache / Background
+# -------------------------
+redis
+django-redis
+
+# -------------------------
+# Email (Dev)
+# -------------------------
+django-anymail
+
+# -------------------------
+# Monitoring & Observability
+# -------------------------
+sentry-sdk
+prometheus-client
+django-prometheus
+
+# -------------------------
+# Utilities
+# -------------------------
+python-dateutil
+pytz
+uuid
+
+# -------------------------
+# Production Server
+# -------------------------
+gunicorn
+whitenoise
+
+# -------------------------
+# Dev & Testing
+# -------------------------
+pytest
+pytest-django
+factory-boy
+coverage

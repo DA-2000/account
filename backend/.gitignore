@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Migrations (optional – keep if you want versioned migrations)
+# **/migrations/
+
+# Environment variables
+.env
+.env.*
+.env.local
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Static & media (ignore generated files)
+staticfiles/
+media/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.pid
